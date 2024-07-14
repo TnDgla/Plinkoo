@@ -2,7 +2,7 @@
 import express from "express";
 import { outcomes } from "./outcomes";
 import cors from "cors";
-import crypro from "crypto";
+import crypto from "crypto";
 import { handlePlinko } from "./algorithm";
 
 const app = express();
@@ -31,11 +31,11 @@ const MULTIPLIERS: {[ key: number ]: number} = {
 }
 
 const getServerSeed = () => {
-    return crypro.randomBytes(32).toString("hex");
+    return crypto.randomBytes(32).toString("hex");
 }
 
 const getClientSeed = () => {
-    return crypro.randomBytes(32).toString("hex");
+    return crypto.randomBytes(32).toString("hex");
 }
 
 // 1. First get seeds using Crypto module
