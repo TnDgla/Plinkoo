@@ -41,15 +41,16 @@ const getClientSeed = () => {
 // 1. First get seeds using Crypto module
 app.get("/seed", (req, res) => {
     res.send({
-        serverSeed: getServerSeed(),
-        clientSeed: getClientSeed()
+        serverSeed: getServerSeed(), // server hex
+        clientSeed: getClientSeed() // client hex
     });
 });
 
 // 2. Then post the seeds to get the result 
-app.post("/plinko", (req, res) => {
-    const { serverSeed, clientSeed } = req.body;
-    const result = handlePlinko(serverSeed, clientSeed, "1", 8, "Low");
+app.post("/plinko", async (req, res) => {
+    const serverSeed = await getServerSeed() // server hex
+    const clientSeed = await getClientSeed() // client hex
+    const result = await handlePlinko(serverSeed, clientSeed, "1", 8, "Low");
     res.send(result);
 });
 
