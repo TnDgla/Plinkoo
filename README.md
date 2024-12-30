@@ -100,7 +100,7 @@ This project is structured to ensure a systematic and incremental development pr
      - **Reading:** [React.js Official Docs](https://reactjs.org/docs/getting-started.html)
      - **Video:** [React.js Crash Course](https://www.youtube.com/watch?v=w7ejDZ8SWv8)
   2. Design the basic layout for the Plinko game board.
-     - **Reading:** [Canvas API Basics](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial)
+     - **Reading:** [Canvas API Basics](https://www.youtube.com/watch?v=gm1QtePAYTM&t=1s)
      - **Video:** [HTML Canvas Tutorial](https://www.youtube.com/watch?v=gm1QtePAYTM)
 
 - **Deliverables:**
@@ -113,7 +113,7 @@ This project is structured to ensure a systematic and incremental development pr
 - **Tasks:**
   1. Develop deterministic ball movement logic using the Canvas API.
      - **Reading:** [Deterministic Physics in Games](https://gameprogrammingpatterns.com/)
-     - **Video:** [Physics in Canvas](https://www.youtube.com/watch?v=3m6igP3DZ8A)
+     - **Video:** [Physics in Canvas](https://www.youtube.com/watch?v=zwZV2Q4fk40)
   2. Simulate collisions and friction for realistic gameplay.
      - **Reading:** [Collision Detection Basics](https://developer.mozilla.org/en-US/docs/Games/Techniques/2D_collision_detection)
      - **Video:** [Collision Physics in Games](https://www.youtube.com/watch?v=LPzyNOHY3A4)
@@ -143,10 +143,10 @@ This project is structured to ensure a systematic and incremental development pr
 - **Tasks:**
   1. Connect the React frontend to the Node.js backend using APIs.
      - **Reading:** [REST API Integration](https://restfulapi.net/)
-     - **Video:** [React API Integration](https://www.youtube.com/watch?v=7CqJlxBYj-M)
+     - **Video:** [React API Integration](https://www.youtube.com/watch?v=Qwb-Za6cBws)
   2. Test gameplay and deterministic results across devices.
      - **Reading:** [Cross-Device Testing Guide](https://www.browserstack.com/guide/cross-browser-testing)
-     - **Video:** [Testing Applications](https://www.youtube.com/watch?v=VQhao6moLqs)
+     - **Video:** [Testing Applications](https://www.youtube.com/watch?v=8Xwq35cPwYg&t=1039s)
 
 - **Deliverables:**
   - Fully integrated system with functional gameplay.
@@ -158,10 +158,10 @@ This project is structured to ensure a systematic and incremental development pr
 - **Tasks:**
   1. Deploy the frontend on Vercel and the backend on Heroku.
      - **Reading:** [Vercel Deployment Guide](https://vercel.com/docs)
-     - **Video:** [Deploying MERN Apps](https://www.youtube.com/watch?v=KKyag6t98g8)
+     - **Video:** [Deploying MERN Apps](https://www.youtube.com/watch?v=22Rywce_kcg&t=136s)
   2. Optimize physics calculations and API response times.
      - **Reading:** [Optimizing JavaScript Applications](https://developer.mozilla.org/en-US/docs/Web/Performance)
-     - **Video:** [Optimizing React Apps](https://www.youtube.com/watch?v=CUxH_rWSI1k)
+     - **Video:** [Optimizing React Apps](https://www.youtube.com/watch?v=Qwb-Za6cBws)
 
 - **Deliverables:**
   - Deployed application with optimized performance.
